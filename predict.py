@@ -62,7 +62,9 @@ def main():
     topk = args.top_k
     device = args.gpu
 
-    chk_path = args.checkpoint
+    chk_path = 'checkpoint.pth'
+    if args.checkpoint:
+        chk_path = args.checkpoint
 
     model = load_saved(chk_path)
 
@@ -82,7 +84,7 @@ def main():
     probs = probs.cpu().numpy()
 
     #     print('PROBABILITY', probs[0][1])
-
+    print('TOP {} PREDICTIONS:'.format(topk))
     i = 0
     while i < topk:
         print("{} with a probability of {:.4f}".format(names[i], probs[0][i]))
