@@ -53,7 +53,9 @@ The following model arhitectures from PyTorch torchvision module are available t
 
 The layers for each model classifier are selected automatically. Hidden layers can be feault or chosen by the user via CLI.
 
-![Example Inference](assets/inference_example.png)
+### Results
+
+![Inference](assets/my_inference.png)
 
 ### Authors
 
