@@ -60,6 +60,9 @@ The layers for each model classifier are selected automatically. Hidden layers c
 - Keerthana Jaganathan 
 - Udacity team: Intro to ML: PyTorch
 
+### License 
+
+Please read [License.md](LICENSE)
 
 
 
