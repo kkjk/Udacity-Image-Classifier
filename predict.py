@@ -83,7 +83,7 @@ def main():
 
     probs = probs.cpu().numpy()
 
-    #     print('PROBABILITY', probs[0][1])
+    # print('PROBABILITY', probs[0][1])
     print('TOP {} PREDICTIONS:'.format(topk))
     i = 0
     while i < topk:
